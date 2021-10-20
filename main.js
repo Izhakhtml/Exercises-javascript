@@ -72,7 +72,6 @@ function randomNumbers() {
 let letterArray = ["A","Z"]
 function checkLetters() {
 let userInsetName = prompt("Enter name")
-// for (const letterItem of letterArray) {
 switch (userInsetName.substr(0,1)) {
     case "A":
           console.log("nice");
@@ -84,7 +83,6 @@ switch (userInsetName.substr(0,1)) {
                    console.log("ohhh");
                   return;
 }    
-// }
 }
 // checkLetters() 
 /////////////////////////////////////// exe 5
